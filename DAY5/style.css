@@ -1,0 +1,45 @@
+/* div{
+ height: 100px;
+}
+.box1{
+    width: 100px;
+    background: black;
+}
+[type="text"]{
+
+} */
+
+.box{
+    /* height: 100px;
+    width: 100px;
+    background-color: orangered;
+    border: 2px solid black;
+    padding:10px 20px ;
+    box-sizing: border-box;
+    margin: 10px; */
+
+    /* border: 50px solid black; */
+    border-top: 50px solid black;
+    border-right: 50px solid blue;
+    border-left: 50px solid yellow;
+    border-bottom: 50px solid red;
+    height: 0px;
+    width: 0px;
+    box-sizing: border-box;
+    border-top-right-radius: 50%;
+    border:  black 2px solid;
+    border-color: black;
+    border-style: dotted;
+    border-width: 2px;
+
+
+    
+}
+
+p{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 30px;
+}
