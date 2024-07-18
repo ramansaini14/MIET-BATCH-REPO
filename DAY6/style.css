@@ -1,0 +1,54 @@
+/* pOSITION pROPERTIES */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+.box{
+    
+}
+
+/* .box1{
+    position: static;
+} */
+.box2{
+    position: fixed;
+    /* right: 0px; */
+    left: 200px;
+    bottom: 0px;
+}
+.container{
+    position: relative;
+    /* border: 2px solid black; */
+    /* height: 300px; */
+}
+
+.box3{
+    /* position: absolute; */
+    /* left: 150px; */
+    /* top: 20px; */
+    height: 100px;
+    width: 100px;
+    background: aqua;
+    border: 1px solid black;
+    
+    
+}
+.box4{
+    position: relative;
+    left: 150px; 
+    top: 20px;
+    height: 100px;
+    width: 100px;
+    background: aqua;
+    border: 1px solid black;
+
+}
+.box5{
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background: aqua;
+    border: 1px solid black;
+
+}
+p{
+    font-family: 'Kalnia Glaze', Arial, Helvetica, sans-serif;
+}
