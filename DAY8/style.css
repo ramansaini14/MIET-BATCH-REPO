@@ -1,0 +1,51 @@
+a:link{
+    text-decoration: wavy underline red;
+    color: black;
+}
+a:visited{
+    /* text-decoration: overline rgb(21, 255, 0); */
+    color: rgb(0, 255, 247);
+}
+a:hover{
+    color: black;
+    background: red;
+}
+input{ 
+    width: 200px;
+}
+input:focus{
+    width: 600px;
+}
+li{
+    /* background: red; */
+    
+}
+
+li:nth-child(2){
+    background: red;
+
+}
+li:nth-child(5){
+    background: red;
+
+}
+
+p::before{
+    content: "IMPRTANT INFO : ";
+    color: red;
+}
+
+label::after{
+ content:"*";
+ color: red;
+}
+
+p::first-letter{
+    background: blue;
+}
+p::first-line{
+    color: bisque;
+}
+
+/* pseudo Elements */
+

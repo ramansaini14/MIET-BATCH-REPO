@@ -42,18 +42,34 @@
 
  .a{
     display: flex;
-    width: 400px;
-    height: 300px;
+    width: 70%;
+    height: 500px;
+    /* flex-wrap: wrap; */
     background: #dadada;
     border: 2px solid black;
     /* flex-wrap: wrap; */
-    justify-content: flex-end;
+    /* justify-content:; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    
  }
  .box{
     width: 400px;
     height: 100px;
     background: #dadada;
     border: 2px solid black;
+ }
+
+ .box1{
+   order: 3;
+}
+.box2{
+   order: 2;
+   
+}
+.box3{
+    order: 1;
+
  }
 
 
